@@ -7,17 +7,39 @@
 	height: 100vh;
 }
 nav {}
-h1 {}
-p {}
-#about {
-}
-h2 {}
-h3 {}
-p {}
-#services {
-}
-h2 {}
-p {}
-#footer {
-}
-p {}
+a {padding: 15px}
+h1 {color: white;
+font-family: "Gill Sans", sans-serif;
+font-size: 32px;
+font-weight: bold;
+text-align: center}
+h2 {font-family: "Gill Sans", sans-serif;
+font-size: 28px;
+font-weight: lighter;
+text-align: center}
+#about {font-family: "Gill Sans", sans-serif;
+font-size: 18px;
+font-weight: lighter;
+text-indent:0px;
+margin:20px;}
+p {padding-top: 6px}
+#services {font-family: "Gill Sans", sans-serif;
+font-size: 16px;
+font-weight: lighter;
+text-indent:0px;
+margin:20px;}
+#clients {font-family: "Gill Sans", sans-serif;
+font-size: 16px;
+font-weight: lighter;
+text-indent:0px;
+margin:20px;}
+#awards {font-family: "Gill Sans", sans-serif;
+font-size: 16px;
+font-weight: lighter;
+text-indent:0px;
+margin:0px;
+padding-top: 10px}
+
+#footer 
+{text-align: center;
+padding-top: 20px}
