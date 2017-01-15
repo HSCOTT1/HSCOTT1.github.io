@@ -1,0 +1,50 @@
+* {	margin:0; padding:0; box-sizing:border-box; }
+#splash {
+	background:url(../images/IMG_3957_5x3.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	padding: 20em 0 0;
+	height: 100vh;
+}
+nav {}
+a {padding: 15px}
+h1 {color: white;
+font-family: "Gill Sans", sans-serif;
+font-size: 32px;
+font-weight: bold;
+text-align: center}
+h2 {font-family: "Gill Sans", sans-serif;
+font-size: 28px;
+font-weight: lighter;
+text-align: center}
+#about {font-family: "Gill Sans", sans-serif;
+font-size: 18px;
+font-weight: lighter;
+text-indent:0px;
+margin:20px;}
+p {padding-top: 6px}
+#services {font-family: "times new roman," georgia, serif;
+font-size: 18px;
+font-weight: lighter;
+text-indent:0px;
+margin:20px;}
+p {padding-top: 6px}
+#clients {font-family: "Gill Sans", sans-serif;
+font-size: 16px;
+font-weight: lighter;
+text-indent:0px;
+margin:20px;}
+#awards {font-family: "Gill Sans", sans-serif;
+font-size: 16px;
+font-weight: lighter;
+text-indent:0px;
+margin:0px;
+padding-top: 10px}
+strong {
+	font-size: 16px;
+	font-variant: bold;
+}
+
+#footer 
+{text-align: center;
+padding-top: 20px}
