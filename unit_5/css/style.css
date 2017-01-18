@@ -6,39 +6,58 @@
 	padding: 20em 0 0;
 	height: 100vh;
 }
-nav {}
+nav {
+	background-color:#E8C66A;
+}
 a {padding: 15px}
 h1 {color: white;
 font-family: "Gill Sans", sans-serif;
 font-size: 32px;
 font-weight: bold;
 text-align: center}
+
 h2 {font-family: "Gill Sans", sans-serif;
 font-size: 28px;
 font-weight: lighter;
 text-align: center}
+
 #about {font-family: "Gill Sans", sans-serif;
 font-size: 18px;
 font-weight: lighter;
 text-indent:0px;
-margin:20px;}
+margin:20px;
+background-color: #E89C6C;
+}
 p {padding-top: 6px;
 padding-right: 30px;
 max-width: 600px}
+
 #services {font-family: "times new roman," georgia, serif;
 font-size: 18px;
 font-weight: lighter;
 text-indent:0px;
-margin:20px;}
+margin:20px;
+background-color: #E89C6C;
+}
 p {padding-top: 6px;
-padding-right: 30px}
+padding-right: 30px
+}
 li
-{max-width: 600px}
+{max-width: 600px
+}
+
+#aside {font-family: "Gill Sans", sans-serif
+font-size: 16px;
+font-weight: normal;
+margin-left: 750px;
+background-color: #FF6C75;}
+
 #clients {font-family: "Gill Sans", sans-serif;
 font-size: 16px;
 font-weight: lighter;
 text-indent:0px;
 margin:20px;}
+
 #awards {font-family: "Gill Sans", sans-serif;
 font-size: 16px;
 font-weight: lighter;
@@ -47,9 +66,8 @@ margin:0px;
 padding-top: 10px}
 strong {
 	font-size: 16px;
-	font-variant: bold;
-}
-
+	font-variant: bold;}
 #footer 
 {text-align: center;
-padding-top: 20px}
+padding-top: 20px;
+background-color: #FF957E;}
