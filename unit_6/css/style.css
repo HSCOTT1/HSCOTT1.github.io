@@ -7,7 +7,9 @@ body {
 	text-align:left;
 	margin-left: 1.5em;
 }
-
+section {
+	padding:4em 0;
+}
 #splash {
 	background:url(../images/IMG_3957_5x3.jpg);
 	background-size:cover;
@@ -35,22 +37,19 @@ h1 {
 	font-weight: lighter;
 	text-align: center;
 }
-
+ul {
+	padding-left:20px;
+}
 p {
 	margin-top: 1em;
-	margin-left: 1em;
 }
-
-#processes {
-    width: 650px;
-    margin-left: 1em;
-    margin-right:auto;
+.books {
+	float: right;
+	margin-left: 4em;
 }
-
 #processes ul {
 	font-family: "times new roman", georgia, serif;
 	font-size: 18px;
-	margin-left: 20px;
 }
 strong {
 	font-variant: bold;
@@ -67,4 +66,11 @@ strong {
 footer {
 	text-align: center;
 	padding-top: 20px;
+}
+.clearfix:after {
+	display:block;
+	clear:both;
+	content: " ";
+	visibility: hidden;
+	height: 0;
 }
