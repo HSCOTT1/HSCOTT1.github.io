@@ -1,0 +1,76 @@
+* {	margin:0; padding:0; box-sizing:border-box; }
+body {
+	font-family: "Gill Sans", sans-serif;
+	font-size: 18px;
+	line-height: 1.5;
+	font-weight: lighter;
+	text-align:left;
+	margin-left: 1.5em;
+}
+section {
+	padding:4em 0;
+}
+#splash {
+	background:url(../images/IMG_3957_5x3.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	padding: 20em 0 0;
+	height: 80vh;
+}
+
+nav {	
+}
+
+a {
+	padding: 15px;
+}
+
+.logo {
+	color: white;
+	font-size: 32px;
+	font-weight: bold;
+	text-align: center;
+}
+
+h1 {
+	font-size: 28px;
+	font-weight: lighter;
+	text-align: center;
+}
+ul {
+	padding-left:20px;
+}
+p {
+	margin-top: 1em;
+}
+.books {
+	float: right;
+	margin-left: 4em;
+}
+#processes ul {
+	font-family: "times new roman", georgia, serif;
+	font-size: 18px;
+}
+strong {
+	font-variant: bold;
+}
+
+#covershots {
+	float:right;
+	width: 500px;
+	margin: 0 0 10px 10px;
+	padding:;
+	height:; 
+}
+
+footer {
+	text-align: center;
+	padding-top: 20px;
+}
+.clearfix:after {
+	display:block;
+	clear:both;
+	content: " ";
+	visibility: hidden;
+	height: 0;
+}
