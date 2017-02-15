@@ -38,7 +38,7 @@ h1 {
 	text-align: center;
 }
 ul {
-	padding-left:20px;
+	padding-left:1em;
 }
 p {
 	margin-top: 1em;
@@ -57,15 +57,15 @@ strong {
 
 #covershots {
 	float:right;
-	width: 500px;
-	margin: 0 0 10px 10px;
+	width: 50%;
+	margin: 0 0 .6em .6em;
 	padding:;
 	height:; 
 }
 
 footer {
 	text-align: center;
-	padding-top: 20px;
+	padding-top: .6em;
 }
 .clearfix:after {
 	display:block;
@@ -73,4 +73,9 @@ footer {
 	content: " ";
 	visibility: hidden;
 	height: 0;
+}
+
+@media only screen and (max-width: 922px) {
+	float: none;
+	width: auto;
 }
