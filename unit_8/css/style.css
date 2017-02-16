@@ -14,8 +14,8 @@ section {
 	background:url(../images/IMG_3957_5x3.jpg);
 	background-size:cover;
 	background-repeat:no-repeat;
-	padding: 20em 0 0;
-	height: 80vh;
+	padding: 10em 0 0;
+	height: 60vh;
 }
 
 nav {	
@@ -30,26 +30,34 @@ a {
 	font-size: 1.7em;
 	font-weight: bold;
 	text-align: center;
+	width: 100%;
 }
 
 h1 {
 	font-size: 1.5em;
 	font-weight: lighter;
 	text-align: center;
+	width: 100%;
 }
 ul {
 	padding-left:1em;
+	column-width: 50%;
 }
 p {
 	margin-top: 1em;
+	width: 50%;
 }
 .books {
 	float: right;
-	margin-left: 4em;
+	margin-left: 1em;
+	padding-left: 1em;
+	padding-right: 1em;
+	width: 50%;
 }
 #processes ul {
 	font-family: "times new roman", georgia, serif;
 	font-size: 1em;
+	width: 50%;
 }
 strong {
 	font-variant: bold;
@@ -58,7 +66,7 @@ strong {
 #covershots {
 	float:right;
 	width: 50%;
-	margin: 0 0 .6em .6em;
+	margin: 0 0 .4em .4em;
 	padding:;
 	height:; 
 }
@@ -76,6 +84,4 @@ footer {
 }
 
 @media only screen and (max-width: 922px) {
-	float: none;
-	width: auto;
 }
